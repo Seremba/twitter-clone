@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.,js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bad-words": "^3.0.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-rate-limit": "^5.1.1",
+    "monk": "^7.1.2",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
